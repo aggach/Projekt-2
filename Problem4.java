@@ -9,6 +9,9 @@ public class Problem4 {
 		}
 		return true;
 	}
+	
+	public static int greatestPalindrom(int max) {
+	}
 
 
 	public static void main(String[] args) {

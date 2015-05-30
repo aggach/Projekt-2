@@ -1,5 +1,11 @@
-
 public class Problem4 {
+
+	/*
+	 * # Public : Check the number is palindrom 
+	 * #  number = The number is palindrom. 
+	 * # If the number is palindrom, return true. 
+	 * # If the number isn't palindrom return false.
+	 */
 
 	public static boolean isPal(int number) {
 		String s = new Integer(number).toString();
@@ -9,7 +15,7 @@ public class Problem4 {
 		}
 		return true;
 	}
-	
+
 	public static int greatestPalindrom(int max) {
 		int largest = 0;
 		int product;
@@ -25,7 +31,7 @@ public class Problem4 {
 		return largest;
 	}
 
-
 	public static void main(String[] args) {
+		System.out.println("The max palindrom is: " + greatestPalindrom(999));
 	}
 }

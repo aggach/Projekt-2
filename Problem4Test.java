@@ -1,4 +1,3 @@
-
 import org.junit.Test;
 
 import junit.framework.TestCase;
@@ -10,7 +9,6 @@ public class Problem4Test extends TestCase {
 		assertTrue(Problem4.isPal(9009));
 		assertFalse(Problem4.isPal(9010));
 	}
-	
 
 	@Test
 	public void testgreatestPalindrom() {
